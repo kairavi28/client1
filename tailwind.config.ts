@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        script: ['"Dancing Script"', 'cursive'],
+        heading: ['Montserrat', 'sans-serif'],
+        body: ['"Open Sans"', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +52,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        beauty: {
+          dark: "hsl(var(--beauty-dark))",
+          cream: "hsl(var(--beauty-cream))",
+          pink: "hsl(var(--beauty-pink))",
+          "light-pink": "hsl(var(--beauty-light-pink))",
+          "rose-gold": "hsl(var(--beauty-rose-gold))",
+          "accent-pink": "hsl(var(--beauty-accent-pink))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -65,20 +78,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
