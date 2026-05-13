@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# Shilpa's Beauty Studio - Website
 
-## Project info
+A modern, elegant website for Shilpa's Beauty Studio built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌟 Features
 
-## How can I edit this code?
+- **Modern Design**: Beautiful, responsive design with pink/cream/rose-gold beauty theme
+- **Service Showcase**: Detailed service pages with pricing
+- **Contact Integration**: WhatsApp integration for easy appointment booking
+- **Responsive**: Fully mobile-friendly design
+- **Fast Performance**: Built with Vite for optimal performance
 
-There are several ways of editing your application.
+## 🚀 Technologies Used
 
-**Use Lovable**
+- **React 18.3.1** - Modern UI library
+- **TypeScript 5.8.3** - Type-safe development
+- **Vite 5.4.19** - Ultra-fast build tool
+- **Tailwind CSS 3.4.17** - Utility-first CSS framework
+- **shadcn/ui** - Premium component library
+- **React Router DOM** - Client-side routing
+- **Cloudflare Pages** - Deployment platform
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## 📦 Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd shilpa-s-studio-glow
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🛠️ Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+# Development server
+npm run dev
 
-**Use GitHub Codespaces**
+# Build for production
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview production build
+npm run preview
 
-## What technologies are used for this project?
+# Run tests
+npm test
 
-This project is built with:
+# Lint code
+npm run lint
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌐 Deployment
 
-## How can I deploy this project?
+This project is deployed on Cloudflare Pages using Wrangler CLI:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+```sh
+# Build and deploy
+npm run build
+npx wrangler pages deploy dist --project-name shilpas-beauty-studio
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 📁 Project Structure
 
-Yes, you can!
+```
+shilpa-s-studio-glow/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Page components
+│   ├── hooks/          # Custom React hooks
+│   ├── lib/            # Utility functions
+│   └── assets/         # Images and media
+├── public/             # Static assets
+└── dist/               # Production build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🎨 Design System
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Primary Color**: Soft Pink (#E5B3C4)
+- **Secondary Color**: Light Pink (#F4D4E0)
+- **Accent**: Rose Gold (#C9A690)
+- **Background**: Cream (#FAF7F5)
+- **Typography**: Montserrat (headings), Open Sans (body), Dancing Script (script)
+
+## 📞 Contact
+
+- **Phone**: +1 (306) 250-8928
+- **Email**: shilpasbeautystudio@hotmail.com
+- **Address**: 128 Barrett St, Saskatoon, SK, Canada
+- **Facebook**: [Shilpa's Beauty Studio](https://www.facebook.com/profile.php?id=61555053069891)
+- **Instagram**: [@shilpas_beautystudio](https://www.instagram.com/shilpas_beautystudio)
+
+## 📄 License
+
+This project is private and proprietary to Shilpa's Beauty Studio.

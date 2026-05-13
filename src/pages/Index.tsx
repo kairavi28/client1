@@ -3,7 +3,6 @@ import ServicesPreview from "@/components/ServicesPreview";
 import AboutSection from "@/components/AboutSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
-import CTASection from "@/components/CTASection";
 
 const Index = () => {
   return (
@@ -13,7 +12,6 @@ const Index = () => {
       <AboutSection />
       <WhyChooseUs />
       <Testimonials />
-      <CTASection />
     </>
   );
 };

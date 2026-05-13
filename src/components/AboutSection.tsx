@@ -1,9 +1,8 @@
 import aboutImg from "@/assets/about-studio.jpg";
 
 const stats = [
-  { number: "5+", label: "Years Experience" },
+  { number: "20+", label: "Years Experience" },
   { number: "1000+", label: "Happy Clients" },
-  { number: "5", label: "Premium Services" },
 ];
 
 const AboutSection = () => {
@@ -20,12 +19,12 @@ const AboutSection = () => {
             <p className="font-body text-muted-foreground leading-relaxed mb-8">
               At Shilpa's Beauty Studio, we believe that every person deserves to feel
               confident and beautiful. With years of expertise and state-of-the-art
-              technology, we provide premium beauty services in a warm and welcoming
+              technology, we provide professional beauty services in a warm and welcoming
               environment. Our certified professionals are dedicated to delivering
               exceptional results tailored to your unique needs.
             </p>
 
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 gap-6">
               {stats.map((stat) => (
                 <div key={stat.label} className="text-center">
                   <p className="font-heading text-3xl md:text-4xl font-bold text-foreground">
